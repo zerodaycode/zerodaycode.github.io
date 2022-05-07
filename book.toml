@@ -5,5 +5,10 @@ multilingual = true
 src = "src"
 title = "Canyon"
 
-[output.html.site-url]
-site-url = "/book/"
+[output.html]
+site-url = "/mdBook/"
+
+[preprocessor.toc]
+max-level = 2
+command = "mdbook-toc"
+renderer = ["html"]
