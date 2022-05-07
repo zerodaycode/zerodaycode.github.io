@@ -1,0 +1,6 @@
+[book]
+authors = ["Pylyv"]
+language = "en"
+multilingual = true
+src = "src"
+title = "Canyon"
